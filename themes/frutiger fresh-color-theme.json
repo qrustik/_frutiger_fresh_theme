@@ -1,0 +1,73 @@
+{
+  "name": "Frutiger Aero Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#2C3E50",
+    "editor.foreground": "#F3F3F3",
+    "activityBar.background": "#2C3E50",
+    "activityBar.foreground": "#4B9CD3",
+    "sideBar.background": "#233140", 
+    "sideBar.foreground": "#F3F3F3",
+    "statusBar.background": "#4B9CD3",
+    "statusBar.foreground": "#2C3E50",
+    "titleBar.activeBackground": "#2C3E50",
+    "titleBar.activeForeground": "#FFDAB9",
+    "tab.activeBackground": "#2C3E50",
+    "tab.activeForeground": "#4B9CD3",
+    "tab.inactiveBackground": "#233140",
+    "tab.activeBorder": "#F6C03F",
+    "focusBorder": "#4B9CD3",
+    "button.background": "#A2D98B",
+    "button.foreground": "#2C3E50",
+    "button.hoverBackground": "#F6C03F",
+    "editorLineNumber.foreground": "#4B9CD380",
+    "editorCursor.foreground": "#F6C03F",
+    "editor.selectionBackground": "#4B9CD340"
+  },
+  "tokenColors":[
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#A2D98B80",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#A2D98B"
+      }
+    },
+    {
+      "scope":["keyword", "storage.type", "storage.modifier", "constant.character"],
+      "settings": {
+        "foreground": "#4B9CD3",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope":["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#F6C03F"
+      }
+    },
+    {
+      "scope": ["entity.name.type", "entity.name.class"],
+      "settings": {
+        "foreground": "#FFDAB9"
+      }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language"],
+      "settings": {
+        "foreground": "#F6C03F"
+      }
+    }
+  ],
+	"semanticTokenColors": {
+		"parameter": {
+		"foreground": "#FFDAB9",
+		"fontStyle": "italic"
+		}
+	}
+}
