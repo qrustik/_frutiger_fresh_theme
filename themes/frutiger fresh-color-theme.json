@@ -2,33 +2,78 @@
   "name": "Frutiger Aero Dark",
   "type": "dark",
   "colors": {
-    "editor.background": "#2C3E50",
+    //
+    "editor.background": "#2c3e50",
     "editor.foreground": "#F3F3F3",
-    "activityBar.background": "#2C3E50",
-    "activityBar.foreground": "#4B9CD3",
-    "sideBar.background": "#233140", 
-    "sideBar.foreground": "#F3F3F3",
-    "statusBar.background": "#4B9CD3",
-    "statusBar.foreground": "#2C3E50",
-    "titleBar.activeBackground": "#2C3E50",
-    "titleBar.activeForeground": "#FFDAB9",
-    "tab.activeBackground": "#2C3E50",
-    "tab.activeForeground": "#4B9CD3",
-    "tab.inactiveBackground": "#233140",
-    "tab.activeBorder": "#F6C03F",
-    "focusBorder": "#4B9CD3",
-    "button.background": "#A2D98B",
-    "button.foreground": "#2C3E50",
-    "button.hoverBackground": "#F6C03F",
-    "editorLineNumber.foreground": "#4B9CD380",
+    "editorLineNumber.foreground": "#F3F3F3b7",
     "editorCursor.foreground": "#F6C03F",
-    "editor.selectionBackground": "#4B9CD340"
+    "editor.selectionBackground": "#4B9CD340",
+    //
+    "activityBar.background": "#2c3e50",
+    "activityBar.foreground": "#4B9CD3",
+    // 
+    "list.hoverBackground": "#4B9CD340",
+    "list.hoverForeground" : "#F3F3F3",
+    "list.activeSelectionBackground": "#4B9CD340",
+    "list.activeSelectionForeground": "#F3F3F3",
+    "list.focusAndSelectionOutline": "#F3F3F3b7",
+    "list.inactiveSelectionBackground": "#4B9CD340",
+    "list.inactiveSelectionForeground": "#F3F3F3",
+    // 
+    "sideBar.background": "#233140",
+    "sideBar.foreground": "#f3f3f3e0",
+    "sideBarTitle.foreground": "#F3F3F3",
+    "sideBarSectionHeader.foreground": "#F3F3F3",
+    "sideBarSectionHeader.background": "#2c3e50",
+    //
+    "statusBar.background": "#4B9CD3",
+    "statusBar.foreground": "#f3f3f3e0",
+    //
+    "titleBar.activeBackground": "#2C3E50",
+    "titleBar.activeForeground": "#F3F3F3",
+    // 
+    "tab.activeBackground": "#2C3E50",
+    "tab.activeForeground": "#F3F3F3",
+    "tab.inactiveBackground": "#233140",
+    "tab.inactiveForeground": "#f3f3f3b7",
+    "tab.activeBorder": "#4B9CD3",
+    "editorGroupHeader.tabsBackground": "#233140",
+    // 
+    "terminal.background": "#2c3e50",
+    "focusBorder": "#F3F3F3b7",
+    "activityBarBadge.background": "#A2D98B",
+    "activityBarBadge.foreground": "#233140",
+    // 
+    "menu.background": "#2C3E50",
+    "menu.foreground": "#F3F3F3",
+    "menu.separatorBackground": "#233140",
+    "menu.border": "#233140",
+    "menubar.selectionBackground" :"#233140",
+    // 
+    "input.background": "#233140",
+    "input.border": "#F3F3F3b7",
+    "button.background": "#A2D98B",
+    "button.foreground": "#233140",
+    "button.hoverBackground": "#A2D98Bb7",
+    // 
+    "dropdown.background": "#233140",
+    "dropdown.border": "#F3F3F3b7",
+    //
+    "commandCenter.background": "#233140",
+    "commandCenter.foreground": "#F3F3F3",
+    "commandCenter.activeBackground": "#2C3E50",
+    "commandCenter.border": "#233140",
+    //
+    "quickInput.background": "#2C3E50",
+    "pickerGroup.border": "#233140",
+    "pickerGroup.foreground": "#A2D98B",
+    
   },
   "tokenColors":[
     {
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#A2D98B80",
+        "foreground": "#a2d98bb7",
         "fontStyle": "italic"
       }
     },
@@ -39,7 +84,26 @@
       }
     },
     {
-      "scope":["keyword", "storage.type", "storage.modifier", "constant.character"],
+      "scope":["keyword.control"],
+      "settings": {
+        "foreground": "#4B9CD3",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope":["constant.character", "constant.other"],
+      "settings": {
+        "foreground": "#4B9CD3",
+      }
+    },
+    {
+      "scope":["keyword.operator"],
+      "settings": {
+        "foreground": "#F3F3F3",
+      }
+    },
+    {
+      "scope":["storage.type", "storage.modifier"],
       "settings": {
         "foreground": "#4B9CD3",
         "fontStyle": "bold"
@@ -54,7 +118,8 @@
     {
       "scope": ["entity.name.type", "entity.name.class"],
       "settings": {
-        "foreground": "#FFDAB9"
+        "foreground": "#FFDAB9",
+        "fontStyle": "bold"
       }
     },
     {
@@ -66,8 +131,7 @@
   ],
 	"semanticTokenColors": {
 		"parameter": {
-		"foreground": "#FFDAB9",
-		"fontStyle": "italic"
+      "fontStyle": "italic"
 		}
 	}
 }
