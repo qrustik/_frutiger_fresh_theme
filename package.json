@@ -2,10 +2,11 @@
   "name": "frutiger-aero-fresh-theme",
   "displayName": "frutiger-aero-fresh-theme",
   "description": "frutiger theme for vscode",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.115.0"
   },
+  "repository": {"url": "https://github.com/qrustik/_frutiger_fresh_theme"},
   "categories": [
     "Themes"
   ],
