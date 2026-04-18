@@ -6,6 +6,7 @@
   "engines": {
     "vscode": "^1.115.0"
   },
+  "repository": {"url": "https://github.com/qrustik/_frutiger_fresh_theme"},
   "categories": [
     "Themes"
   ],
